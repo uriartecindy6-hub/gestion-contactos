@@ -1,0 +1,23 @@
+{
+  "name": "sistema-gestion-contactos",
+  "version": "1.0.0",
+  "description": "Sistema de Gestión de Contactos - Backend Node/Express + Frontend React & Tailwind CSS",
+  "scripts": {
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:all": "npm run install:server && npm run install:client",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "dev": "node dev.js",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": [
+    "contactos",
+    "react",
+    "nodejs",
+    "express",
+    "tailwindcss"
+  ],
+  "author": "",
+  "license": "MIT"
+}
